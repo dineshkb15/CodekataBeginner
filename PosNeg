@@ -1,15 +1,7 @@
-#include<stdio.h>
-#include<conio.h>
-void main()
-{
-int a;
-printf("Enter the value :");
-scanf("%d",&a);
-if (a>0)
-printf("Positive");
-else if (a<0)
-printf("Negative");
-else 
-printf("Zero");
-getch();
-}
+a=int(input("Enter a number:"))
+if a>0:
+    print("Positve")
+elif a==0:
+    print("Zero")
+else:
+    print("Negative")
